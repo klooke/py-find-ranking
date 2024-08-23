@@ -15,10 +15,10 @@ def get_player_ranking(vitorias):
         return "Imortal"
 
 
-print("\nBem vindo á calculadora de partidas rankeadas!\n")
+print("\nBem vindo á calculadora de partidas rankeadas!")
 
 while True:
-    print("Digite número de vitórias e derrotas do Herói: (deixe vazio para sair)")
+    print("\nDigite número de vitórias e derrotas do Herói: (deixe vazio para sair)")
 
     try:
         vitorias = int(input("-Nº de vitórias: "))
